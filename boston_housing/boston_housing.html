@@ -13814,8 +13814,15 @@ pTahxes7AAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p><strong>Grid search</strong> is a technique through which we can estimate the best hyperparameters for a machine learning model. The grid search technique automates the process of tuning parameters of a model in order to get the best performance. In this technique, a grid of hyperparameter values is set up and for each combination, model is trained and the score on the validation data is calculated. The model and parameters with the best score are returned.  In this approach, every single combination of hyperparameters values is tried.</p>
-<p>Below is the example code where grid search is applied to try to get the model with best hyper parameters for LinearRegression on the housing.csv data. The hyperparameters used are fit_intercept , normalize , copy_X.</p>
+<p><strong>Grid search</strong> is an approach to hyperparameter tuning that will iteratively build and evaluate a model for each combination of input provided.</p>
+<p>As the input, we supply a <strong>range of values for different hyperparameters</strong> of the model which we want to optimize. This range of hyperparameter values is referred to as the <strong>grid</strong>. Grid search builds a model for every combination of hyperparameters specified and <strong>evaluates each model on a score</strong>. This score is calculated by using the scorer/performance-metric passed to the grid search. This performance metric or the scoring parameter can be <strong>different for different types of models</strong>. For example, to evaluate a classification model, this parameter can be precision_score or recall or f1 score where-as to evaluate a regression model this scorer value can be r2, mean_suared_error etc. The hyperparameters with which the model evaluated the best is returned. In this approach, every single combination of hyperparameters values is tried.</p>
+<p><strong>Parameters vs Hyperparameters</strong></p>
+<p>A parameter is an internal characteristic of the model and its value can be estimated from data.<br>
+Eg: beta Coefficient of linear regression</p>
+<p>A model hyperparameter is a characteristic of a model that is external to the model and whose value cannot be estimated from data.
+Eg: Depth of tree in Decision Tree Regressor</p>
+<p><strong>Example Code</strong></p>
+<p>Below is the example code where grid search is applied to try to get the model with best hyper parameters for LinearRegression on the housing.csv data. The hyperparameters used are fit_intercept , normalize , copy_X. The scorer used to evaluate the mode is f1_score.</p>
 
 </div>
 </div>
