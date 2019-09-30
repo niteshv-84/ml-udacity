@@ -18,7 +18,9 @@ The input data-set for the project is available on kaggle and can be downloaded 
 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/download 
 
-This dataset need to be stored inside a folder named ```input``` at the same level as the notebook. The different folders need to be stored in the following order.
+This dataset need to be stored inside a folder named ```input``` at the same level as the notebook.
+The different folders need to be stored in the following order.
+
 
 ### Input Structure
 ------------ 
@@ -47,6 +49,8 @@ This dataset need to be stored inside a folder named ```input``` at the same lev
     │   ├── transformed      <- Folder which will store the transformed images (transformed as part of data pre-processing)
     │
     ├── proposal.pdf         <- Capstone project proposal
+    │
+    ├── proposal-review.pdf         <- Capstone project proposal review
     │
     ├── report.pdf          <- Capstone project report.
 	│
