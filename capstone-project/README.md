@@ -3,10 +3,10 @@ Machine Learning Engineer Nanodegree Capstone Project
 
 This github repo contains capstone project for Udacity's Machine Learning Nanodegree. 
 
-####Problem Statement:
+#### Problem Statement:
 Build a machine learning model to detect if a child is suffering from pneumonia using chest x-ray images.
 
-##Setup Instructions
+## Setup Instructions
 -------------
  Download the repo to the current directory. To create an anaconda environment run the following. 
  
