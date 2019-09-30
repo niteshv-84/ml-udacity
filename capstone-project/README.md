@@ -18,7 +18,7 @@ The input data-set for the project is available on kaggle and can be downloaded 
 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/download 
 
-This dataset need to be stored inside the input folder in the following structure.
+This dataset need to be stored inside a folder named ```input``` at the same level as the notebook. The different folders need to be stored in the following order.
 
 ### Input Structure
 ------------ 
